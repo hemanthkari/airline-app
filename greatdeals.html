@@ -16,6 +16,7 @@
     />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/deals.css" />
     <!-- Custom styles -->
     <style></style>
   </head>
@@ -24,26 +25,55 @@
     <!-- prettier-ignore -->
     <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block" style="z-index: 2000;">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
-            aria-label="Toggle navigation">
+          <!-- Navbar brand -->
+          <a class="navbar-brand nav-link" target="_blank" href="#">
+            <strong>Airline App</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarExample01">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="./index.html">Start Over</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="./greatdeals.html" rel="nofollow"
+                  target="_blank">Great Deals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="./help.html" target="_blank">Help</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="./contact.html" target="_blank">Contact Us</a>
+              </li>
+            </ul>
+  
+            <ul class="navbar-nav list-inline">
+              <!-- Icons -->
+              <li class="">
+                <a class="nav-link" href="#" rel="nofollow"
+                  target="_blank">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="">
+                <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
               </li>
             </ul>
           </div>
@@ -51,6 +81,71 @@
       </nav>
       <!-- Navbar -->
     </header>
+    <div class="container">
+      <div class="section">
+        <div class="container">
+            <h2>Best deals on reputated Airlines</h2>
+            <div class="image-carousel style2 flexslider" data-animation="slide" data-item-width="270" data-item-margin="30">
+                <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                    <ul class="slides image-box hotel listing-style1" style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-300px, 0px, 0px);">
+                        <li style="width: 270px; float: left; display: block;">
+                            <article class="box">
+                                <figure> <a href="#" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./img/chicago.jpg" draggable="false"></a> </figure>
+                                <div class="details"> <span class="price"><small>11-29-2022</small>$700</span>
+                                    <h4 class="box-title">United Airlines<small>Chiacgo to Dallas</small></h4>
+                                    <div class="feedback">
+                                        <div data-placement="bottom" data-toggle="tooltip" class="fa fa-star" title="" data-original-title="4 stars"><span style="width: 80%;" class="five-stars"></span></div> <span class="review">170 reviews</span>
+                                    </div>
+                                    <p class="description">Cheapest Deal</p>
+                                    <div class="action"> <a class="button btn-small" href="./confirm.html">BOOK</a> <a class="button btn-small yellow popup-map" href="#" data-box="37.089072, -8.247880">VIEW ON MAP</a> </div>
+                                </div>
+                            </article>
+                        </li>
+                        <li style="width: 270px; float: left; display: block;">
+                            <article class="box">
+                                <figure> <a href="#" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./img/chicago.jpg" draggable="false"></a> </figure>
+                                <div class="details"> <span class="price"><small>11-29-2022</small>$700</span>
+                                    <h4 class="box-title">United Airlines<small>Chiacgo to Dallas</small></h4>
+                                    <div class="feedback">
+                                        <div data-placement="bottom" data-toggle="tooltip" class="fa fa-star" title="" data-original-title="4 stars"><span style="width: 80%;" class="five-stars"></span></div> <span class="review">485 reviews</span>
+                                    </div>
+                                    <p class="description">Cheapest Deal</p>
+                                    <div class="action"> <a class="button btn-small" href="./confirm.html">BOOK</a> <a class="button btn-small yellow popup-map" href="#" data-box="40.463667, -3.749220">VIEW ON MAP</a> </div>
+                                </div>
+                            </article>
+                        </li>
+                        <li style="width: 270px; float: left; display: block;">
+                          <article class="box">
+                              <figure> <a href="#" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./img/chicago.jpg" draggable="false"></a> </figure>
+                              <div class="details"> <span class="price"><small>11-29-2022</small>$700</span>
+                                  <h4 class="box-title">United Airlines<small>Chiacgo to Dallas</small></h4>
+                                  <div class="feedback">
+                                      <div data-placement="bottom" data-toggle="tooltip" class="fa fa-star" title="" data-original-title="4 stars"><span style="width: 80%;" class="five-stars"></span></div> <span class="review">485 reviews</span>
+                                  </div>
+                                  <p class="description">Cheapest Deal</p>
+                                  <div class="action"> <a class="button btn-small" href="./confirm.html">BOOK</a> <a class="button btn-small yellow popup-map" href="#" data-box="40.463667, -3.749220">VIEW ON MAP</a> </div>
+                              </div>
+                          </article>
+                      </li>
+                      <li style="width: 270px; float: left; display: block;">
+                        <article class="box">
+                            <figure> <a href="#" class="hover-effect popup-gallery"><img width="270" height="160" alt="" src="./img/chicago.jpg" draggable="false"></a> </figure>
+                            <div class="details"> <span class="price"><small>11-29-2022</small>$700</span>
+                                <h4 class="box-title">United Airlines<small>Chiacgo to Dallas</small></h4>
+                                <div class="feedback">
+                                    <div data-placement="bottom" data-toggle="tooltip" class="fa fa-star" title="" data-original-title="4 stars"><span style="width: 80%;" class="five-stars"></span></div> <span class="review">485 reviews</span>
+                                </div>
+                                <p class="description">Cheapest Deal</p>
+                                <div class="action"> <a class="button btn-small" href="./confirm.html">BOOK</a> <a class="button btn-small yellow popup-map" href="#" data-box="40.463667, -3.749220">VIEW ON MAP</a> </div>
+                            </div>
+                        </article>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
   </body>
 
   <!-- MDB -->
